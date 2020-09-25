@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="voto.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Digite o seu voto</h1>
+    
+    
+
+        <div>Candidato 1</div>
+        <div>Candidato 2</div>
+        <div>Voto nulo 3</div>
+        <div>Voto em branco4</div>
+
+        <input type="number" name="numero" id="numero" min="0" max="4">
+
+        <button onclick="votar()">Votar</button>
+        <button onclick="totalVotos()">Resultado</button>
+
+        <h1 id="result">resultado</h1>
+
+        <script src="voto.js"></script>
+    
+</body>
+</html>

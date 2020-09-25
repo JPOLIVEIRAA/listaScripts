@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>QUESTIONÁRIO</h1>
+
+    <table>
+        <tr>
+              
+              <th>Opinião<br>Op</br></th>
+              <th>Significado</th>
+        </tr>
+        <tr>
+              <td>1</td>
+              <td>Ótimo</td>
+        </tr>
+        <tr>
+              <td>2</td>
+              <td>Bom</td>
+        </tr>
+        <tr>
+              <td>3</td>
+              <td>Regular</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Ruin</td>
+      </tr>
+    </table>
+    
+    <input type="text" id="idade" placeholder="Insira sua idade" >
+    <input type="number" id="op" placeholder="O que achou do filme?" min="1" max="4">
+    <button onclick="escolher()">Selecionar</button>
+    <button onclick="totalEsc()">Finalizar</button>
+    <h1 id="qt" + "quantidade de pessoas">Quantidade</h1>
+    <h1 id="result">Resultado</h1>
+
+
+
+    <script src="questionario.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="calculopeso.css">
+    <title>Peso</title>
+</head>
+<body>
+  <table>
+      <tr>
+            <caption>Tabela indice de massa corporal</caption>
+            <th>IMC<br>(IMC = peso / altura^2</br></th>
+            <th>MENSAGEM</th>
+      </tr>
+      <tr>
+            <td>IMC < 20</td>
+            <td>Abaixo do peso</td>
+      </tr>
+      <tr>
+            <td>IMC >= 20 < 25</td>
+            <td>Peso ideal</td>
+      </tr>
+      <tr>
+            <td>IMC > = 25</td>
+            <td>Acima do peso</td>
+      </tr>
+  </table>
+
+  <div>
+        <h1 id="resultado"></h1>
+
+        <form id"input-area">
+              <div class= "field">
+                    <label for="peso">Peso</label>
+                    <input type="text" name="peso" id="peso" placeholder="Peso">
+              </div>
+              <div class= "field">
+                  <label for="altura">Altura</label>
+                  <input type="text" name="altura" id="altura" placeholder="Altura">
+            </div>
+        </form>
+
+        <button onclick="calcular()">Calcular</button>
+
+  </div>
+
+  <script src="calculopeso.js"></script>
+        
+</body>
+</html>
